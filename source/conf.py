@@ -25,7 +25,8 @@ sys.path.append(os.path.abspath('sphinxext'))
 extensions = ['sphinx.ext.intersphinx',
               'sphinx.ext.pngmath',
               'ipython_console_highlighting',
-              'sphinx.ext.ifconfig']
+              'sphinx.ext.ifconfig',
+              'sphinx.ext.todo']
 
 # Matplotlib sphinx extensions
 # ----------------------------
@@ -234,3 +235,6 @@ intersphinx_mapping = {'http://docs.python.org/': None,
                        #'http://docs.scipy.org/doc/numpy/': None,
                        #'http://docs.scipy.org/doc/scipy/reference/': None,
                        }
+
+
+todo_include_todos = True

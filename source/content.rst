@@ -5,6 +5,7 @@ Scientific Computing Tools For Python
     :maxdepth: 1
 
     download
+    building/index
     faq
     mailing-lists
     dev-zone
